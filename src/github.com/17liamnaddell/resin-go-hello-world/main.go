@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"resin1/src/github.com/therecipe/qt/core"
-	"resin1/src/github.com/therecipe/qt/webengine"
-	"resin1/src/github.com/therecipe/qt/widgets"
+	"github.com/resin1/src/github.com/therecipe/qt/core"
+	"github.com/resin1/src/github.com/therecipe/qt/webengine"
+	"github.com/resin1/src/github.com/therecipe/qt/widgets"
 )
 
 const htmlData = `<!DOCTYPE html>
