@@ -1,0 +1,3 @@
+#!/bin/sh
+
+resin sync --source src/github.com/17liamnaddell/resin-go-hello-world/ --destination /go/src/github.com/resin1/

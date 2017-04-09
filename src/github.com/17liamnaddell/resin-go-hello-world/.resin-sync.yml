@@ -1,0 +1,6 @@
+local_resinos: {}
+uuid: 10c7c302c4e351647617e3c8113ea35a
+destination: /go/src/github.com/resin1/
+ignore:
+  - .git
+  - node_modules/
