@@ -6,5 +6,5 @@ RUN apt-get -q update && apt-get install -yq --no-install-recommends \
         && apt-get clean && rm -rf /var/lib/apt/lists/*
 WORKDIR /go/src/github.com/resin-io-projects/resin-go-hello-world
 COPY . ./
-RUN go build
+#RUN go build
 CMD ./resin-go-hello-world
