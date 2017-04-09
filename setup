@@ -1,0 +1,2 @@
+export GOPATH=$HOME/repos/resin1
+export PATH=$HOME/repos/resin1/bin:$PATH
