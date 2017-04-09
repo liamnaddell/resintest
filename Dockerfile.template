@@ -7,6 +7,8 @@ RUN apt-get -q update && apt-get install -yq --no-install-recommends \
 WORKDIR /go/src/github.com/resin1/
 COPY . ./
 WORKDIR /go/src/github.com/resin1/src/github.com/17liamnaddell/resin-go-hello-world
-ENV GOPATH /go/src/github.com/resin1/rsetup
+ENV GOPATH /go/src/github.com/resin1/
+RUN export GOPATH=/go/src/github.com/resin1/
+RUN . /go/src/github.com/resin1/rsetup
 RUN go build
 RUN ./resin-go-hello-world
