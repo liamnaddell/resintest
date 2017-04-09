@@ -1,3 +1,1 @@
 export GOPATH=/go/src/github.com/resin1
-export PATH=/go/src/github.com/resin1/bin:$PATH
-
